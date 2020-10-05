@@ -2,6 +2,10 @@
     font-family: 'Aldrich-Regular';
     src: url('/assets/Aldrich-Regular.ttf');
 }
+@font-face{
+    font-family: 'Aclonica-Regular';
+    src: url('/assets/Aclonica-Regular.ttf ');
+}
 li{
     float: left;
     position: relative;
@@ -81,4 +85,15 @@ li a:hover{
     top: 511px;
     right: 576px;
     width: 65%;
+}
+.txt span{
+    font-family: 'Aclonica-Regular', cursive, sans-serif;
+}
+.txt{
+    position: absolute;
+    top: 309px;
+    left: 875px;
+    width: 46%;
+    font-size: 2.5rem;
+    text-align: center;
 }
