@@ -1,4 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #10E696;
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+@keyframes bgcolor{
+    0%{
+        background: #10E696;
+    }
+    20%{
+        background: #e55039;
+    }
+    40%{
+        background: #38ada9;
+    }
+    60%{
+        background: #e58e26;
+    }
+    80%{
+        background: #718093;
+    }
+    100%{
+        background: #60a3bc;
+    }
 }

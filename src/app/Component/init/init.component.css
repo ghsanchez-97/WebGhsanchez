@@ -97,3 +97,10 @@ li a:hover{
     font-size: 2.5rem;
     text-align: center;
 }
+.job{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 772px;
+    right: 379px;
+}
